@@ -80,6 +80,8 @@ footer{
     margin-top: 20px;
     font-size: 17px;
     font-weight: 400;
+    color: rgba(241, 248, 248, 0.921);
+    
 }
 .box-footer h4{
     margin-bottom: 30px;
@@ -103,6 +105,11 @@ footer{
     text-align: center;
     padding: 0 2.5rem;
 }
+.box-copyright p{
+    margin-top: 1.15rem;
+    color: rgba(241, 248, 248, 0.921);
+}
 .box-copyright hr{
     height: 0.03rem;
+
 }
