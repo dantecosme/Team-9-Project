@@ -22,7 +22,7 @@
 }
 
 .umbrella button {
-    background-color: rgb(75, 167, 241);
+    background-color: rgba(19, 26, 224, 0.775);
     color: white;
     padding: 14px 20px;
     margin: 10px 0;
@@ -32,5 +32,5 @@
 }
 
 .umbrella button:hover {
-    background-color: rgb(0,0,50);
+    color: rgba(19, 26, 224, 0.775)
 }
