@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+html {
+
+}
+
+body {
+    
+}
+
+#purpose {
+    display: flex;
+    background-image: url("https://placehold.co/1920x1080");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1920;
+    height: 1080px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#purpose h1 {
+    font-size: 7rem;
+}
+
