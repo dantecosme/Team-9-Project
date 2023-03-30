@@ -14,12 +14,9 @@ body {
 
 #purpose {
     display: flex;
-    background-image: url("https://placehold.co/1920x1080");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 1920;
-    height: 1080px;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -27,13 +24,22 @@ body {
 
 #purpose h1 {
     font-size: 7rem;
+    margin-bottom: 20px;
 }
+
+#purpose p {
+    font-size: 5rem;
+}
+
 
 /* Team Section */
 
 #team {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px;
 }
 
 #team-banner {
@@ -43,8 +49,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    /* delete after */
-    border: 1px solid red;
     background-image: url("https://placehold.co/1500x100");
 }
 
@@ -70,3 +74,34 @@ body {
 #team-links a {
     font-size: 3rem;
 }
+
+#team-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team {
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 125px;
+    padding-bottom: 125px;
+    border-bottom: 2px solid black;
+}
+
+.team figcaption {
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+.team p {
+    font-size: 3rem;
+    margin-left: 100px;
+    text-align: right;
+}
+
