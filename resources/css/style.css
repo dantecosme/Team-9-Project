@@ -53,7 +53,7 @@
 footer{
     width: 100%;
     padding: 50px 0px;
-    background-color: rgba(19, 26, 224, 0.589);
+    background-color: rgba(6, 14, 248, 0.751);
 }
 .container-footer{
     display: flex;
@@ -72,7 +72,6 @@ footer{
 .logo img{
     width: 100px;
     border-radius: 6rem;
-   /* margin: auto;*/
 }
 .box-footer,
 .terms p{
@@ -86,6 +85,7 @@ footer{
 .box-footer h4{
     margin-bottom: 30px;
     font-weight: 700;
+    color: rgba(0, 0, 0, 0.544);
 }
 .box-footer a{
     margin-top: 10px;
@@ -111,5 +111,4 @@ footer{
 }
 .box-copyright hr{
     height: 0.03rem;
-
 }
