@@ -29,3 +29,44 @@ body {
     font-size: 7rem;
 }
 
+/* Team Section */
+
+#team {
+    display: flex;
+    justify-content: center;
+}
+
+#team-banner {
+    display: flex;
+    width: 1500px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    /* delete after */
+    border: 1px solid red;
+    background-image: url("https://placehold.co/1500x100");
+}
+
+#team-banner h2 {
+    font-size: 5rem;
+    margin-left: 50px;
+}
+
+#team-links {
+    display: flex;
+    width: 500px;
+    height: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+
+.vl {
+    border-right: 2px solid black;
+    padding-right: 20px;
+}
+
+#team-links a {
+    font-size: 3rem;
+}
