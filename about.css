@@ -7,7 +7,6 @@
 
 body {
     font-family: Arial, sans-serif;
-    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -52,6 +51,7 @@ button:hover {
     align-items: center;
     font-size: 1.5rem;
     padding-bottom: 1rem;
+    width: 100%;
 }
 .logo{
     height: 7rem;
@@ -140,6 +140,7 @@ img:hover{
 
 .container-footer{
     background-color: rgba(19, 26, 224, 0.775);
+    width: 100%;
 }
 .footer-logo img{
     width: 100px;
