@@ -1,107 +1,64 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 10px;
+    box-sizing: border-box;
 }
 
-html {
-
-}
-
-body {
-    
-}
-
-#purpose {
+.container {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
-#purpose h1 {
-    font-size: 7rem;
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+#statement {
+     flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+#statement h2 {
+    font-weight: 400;
+}
+
+hr {
+    border: 2px solid black;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#purpose p {
-    font-size: 5rem;
-}
-
-
-/* Team Section */
-
-#team {
-    display: flex;
+#team-header {
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 200px;
-}
-
-#team-banner {
-    display: flex;
-    width: 1500px;
-    height: 100px;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-    background-image: url("https://placehold.co/1500x100");
-}
-
-#team-banner h2 {
-    font-size: 5rem;
-    margin-left: 50px;
-}
-
-#team-links {
-    display: flex;
-    width: 500px;
-    height: 50%;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-right: 20px;
-}
-
-.vl {
-    border-right: 2px solid black;
-    padding-right: 20px;
-}
-
-#team-links a {
-    font-size: 3rem;
+    position: relative;
+    margin-bottom: 50px;
 }
 
 #team-gallery {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    /* row-gap: 10%; youre working on this line */
+}
+.team-photo img {
+    border-radius: 50%;
+}
+
+.team-member {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-}
-
-.team {
-    width: 1500px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-bottom: 125px;
-    padding-bottom: 125px;
-    border-bottom: 2px solid black;
-}
-
-.team figcaption {
-    font-size: 3.5rem;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-
-.team p {
-    font-size: 3rem;
-    margin-left: 100px;
-    text-align: right;
+    flex-direction: column;
+    flex: 1 1 25%;
+    row-gap: ;
 }
 
