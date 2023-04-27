@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .navbar{
     background-color: rgba(19, 26, 224, 0.775);
     display: flex;
@@ -67,7 +66,7 @@
     margin-bottom: 2rem;
 }
 .flex-image{
-    display: flex;
+    display: inline-flex;
     margin-top: auto;
     margin-left: auto;
     justify-content: space-evenly;
@@ -75,7 +74,7 @@
 }
 .flex-image div{
     width: 250px;
-    height: auto;
+    height: 350px;
     margin-bottom: 10rem;
 }
 .picture img{
