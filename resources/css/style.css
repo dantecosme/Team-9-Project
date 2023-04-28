@@ -3,6 +3,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1rem;
+}
 .navbar{
     background-color: rgba(19, 26, 224, 0.775);
     display: flex;
@@ -49,11 +64,7 @@
     padding-top: 33%;
     color: rgb(240, 238, 242);
 }
-.container-title h1{
-    font-size: 3rem;
-}
 .container-title h2{
-    font-size: 2.2rem;
     color: rgb(240, 238, 242);
 }
 .best-sellers{
@@ -62,8 +73,8 @@
 .best-sellers-title h2{
     text-align: center;
     color: rgba(0, 0, 255, 0.656);
-    font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 .flex-image{
     display: flex;
@@ -90,10 +101,10 @@ img:hover{
 }
 .picture h4, h5{
     margin-left: 18px;
-    color: rgba(0, 0, 255, 0.656);
+    color: rgba(20, 20, 196, 0.658);
 }
 .picture h4{
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 .picture h5 span{
     font-size: 13px;
@@ -132,8 +143,9 @@ img:hover{
     display: flex;
     flex-direction: column;
 }
-div h4{
-   color: rgba(25, 25, 27, 0.91);
+.title-section, h4{
+    padding-top: 1rem;
+    margin-top: 1rem;
    padding: 0.8rem 0rem;
 }
 a{
@@ -150,3 +162,80 @@ a{
     padding: 1.15rem;
     background-color: rgba(22, 36, 189, 0.927);
 }
+#banner{
+    background-image: linear-gradient(rgba(181, 196, 222, 0.3), rgba(7, 88, 238, 0.329)), url(../img/baner/desesperate.jpg);
+    height: 60vh;
+    width: 100%;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#banner h3{
+    padding-bottom: 1rem;
+}
+#banner h2{
+    padding-bottom: 1rem;
+}
+#banner button{
+    padding: 1rem 4rem 1rem 3.8rem;
+    border-radius: 2rem;
+}
+#products > h2{
+    text-align: center;
+    margin-top: 6rem;
+    padding-bottom: 3rem;
+}
+#products .product-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+#products .product{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 3px solid rgba(0, 0, 255, 0.262);
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px rgba(181, 196, 222, 0.3);
+    margin: 15px 0;
+    position: relative;
+}
+#products, .product, img{
+    width: 100%;
+    border-radius: 20px;
+}
+#products .product .description{
+    text-align: start;
+    padding: 10px 0;
+}
+#products .product .description span{
+    font-size: 1rem;
+}
+#products .product .description h4{
+    padding-top: 7px;
+    color: black;
+}
+#products .product .description i{
+    font-size: 12px;
+    color: yellow;
+}
+#products .product .description h5{
+    padding-top: 7px;
+    font-weight: 700;
+}
+#products .product .cart{
+    color: blue;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    font-size: 2rem;
+   
+} 
