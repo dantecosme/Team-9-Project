@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- link for header and footer -->
+    <!-- link for header and footer styling -->
     <link rel="stylesheet" href="./resources/css/style.css">
-    <!-- link for product page -->
+    <!-- link for product page styling -->
     <link rel="stylesheet" href="./resources/css/products.css">
     <script src="./resources/scripts/item.js" defer></script>
 </head>
@@ -65,11 +65,25 @@
             </li>
           </ul>
         </nav>
-      </header>
-
-      <!-- main -->
-
-      <footer class="container-footer">
+    </header>
+    
+    <!-- main -->
+    <main>
+        <!-- background image will be set on #product-banner below header and above products -->
+        <div id="product-banner"></div>
+        <div id="product-gallery">
+            <div class="product-card">
+                <img src="https://placehold.co/100x100" alt="Product Image">
+                <h3>Product Name</h3>
+                <p>Product Description</p>
+                <p>Price</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+          
+    </main>
+     
+    <footer class="container-footer">
         <div class="footer-header">
           <div class="footer-logo">
             <img src="./resources/img/Company Logos/descarga.png" alt="this is the logo" />
@@ -139,6 +153,6 @@
           <p>Privacy Policy Terms & Conditions</p>
           <b>Group #9</b>
         </div>
-      </footer>
+    </footer>
 </body>
 </html>
