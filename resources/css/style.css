@@ -162,17 +162,20 @@ a{
     padding: 1.15rem;
     background-color: rgba(22, 36, 189, 0.927);
 }
-#banner{
-    background-image: linear-gradient(rgba(181, 196, 222, 0.3), rgba(7, 88, 238, 0.329)), url(../img/baner/desesperate.jpg);
+/*-------------------Products-----------------------*/
+#banner, #banner-c{
     height: 60vh;
-    width: 100%;
-    background-position: top 25% right 0;
+    width: 100%; 
     background-size: cover;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+#banner{
+    background-position: top 25% right 0;
+    background-image: linear-gradient(rgba(181, 196, 222, 0.3), rgba(7, 88, 238, 0.329)), url(../img/baner/desesperate.jpg);
 }
 #banner h3{
     padding-bottom: 1rem;
@@ -236,6 +239,9 @@ a{
     position: absolute;
     bottom: 20px;
     right: 10px;
-    font-size: 2rem;
-   
-} 
+    font-size: 2rem; 
+}
+/*------------------------Connectivity----------------------*/
+#banner-c{
+    background-image: linear-gradient(rgba(171, 198, 245, 0.138), rgba(7, 88, 238, 0.078)), url(../img/baner/connet.jpg);
+}
